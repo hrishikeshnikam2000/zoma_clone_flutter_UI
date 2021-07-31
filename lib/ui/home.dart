@@ -35,3 +35,15 @@ void initState() {
 void initState() {
   super.dispose();
 }
+
+@override 
+Widget build(BuildContext context) {
+  return Scaffold(\
+  bottomNavigationBar: BottomNavigationBar(
+    backgroundColor: AppColors.whiteColor,
+    items: <BottomNavigationBarItem>[
+      BottomNavigationBarItem(activeIcon: FontAwsome.shopping_bag),
+      title: Text('order'),
+    ],),
+  )
+}
