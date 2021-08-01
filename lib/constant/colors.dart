@@ -7,6 +7,8 @@ class AppColors{
 
   static var separatorGrey;
 
+  static var persianColor;
+
   AppColors._();
   static const Color primaryTextColorBlue = Color(0xFF173143);
   static const Color primaryTextColorGrey = Color(0xFF9D9D9D);

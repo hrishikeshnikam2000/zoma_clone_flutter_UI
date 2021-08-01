@@ -11,12 +11,12 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   int _selectedIndex = 0;
   static List<Widget> _widgetOptions = <Widget>[
-    FirstPage(),
-    SecondPage(),
-    ThirdPage(),
-    FourthPage(),
-    FifthPage(),
-    SixthPage(),
+    // FirstPage(),
+    // SecondPage(),
+    // ThirdPage(),
+    // FourthPage(),
+    // FifthPage(),
+    // SixthPage(),
   ];
 
   void _onItemTapped(int index) {
