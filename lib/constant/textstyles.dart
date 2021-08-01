@@ -6,39 +6,39 @@ class TextStyles {
 
   static const pageHeading = TextStyle(
     fontWeight: FontWeight.w500,
-    color: AppColors.blackColor,
+    color: Colors.black,
     fontSize: 24.0
   );
   static const pageSubHeading = TextStyle(
       fontWeight: FontWeight.w500,
-      color: AppColors.blackColor,
+      color: Colors.black,
       letterSpacing: 2,
       fontSize: 21.0
   );
   static const pageSubHeading1 = TextStyle(
       fontWeight: FontWeight.w500,
-      color: AppColors.blackColor,
+      color: Colors.black,
       fontSize: 21.0
   );
 
   static const h1Heading = TextStyle(
       fontWeight: FontWeight.bold,
-      color: AppColors.blackColor,
+      color: Colors.black,
       fontSize: 18.0
   );
   static const h1SubHeading = TextStyle(
       fontWeight: FontWeight.normal,
-      color: AppColors.blackColor,
+      color: Colors.black,
       fontSize: 18.0
   );
   static const actionTitle = TextStyle(
       fontWeight: FontWeight.w600,
-      color: AppColors.blackColor,
+      color: Colors.black,
       fontSize: 18.0
   );
   static const actionTitleWhite = TextStyle(
       fontWeight: FontWeight.w500,
-      color: AppColors.whiteColor,
+      color: Colors.white,
       fontSize: 18.0
   );
   static const actionTitleBlack = TextStyle(
@@ -48,12 +48,12 @@ class TextStyles {
   );
   static const actionTitleBlack1 = TextStyle(
       fontWeight: FontWeight.w600,
-      color: AppColors.blackColor,
+      color: Colors.black,
       fontSize: 16.0
   );
   static const paragraphBold = TextStyle(
       fontWeight: FontWeight.bold,
-      color: AppColors.blackColor,
+      color: Colors.black,
       fontSize: 14.0
   );
   static const paragraphdemibold = TextStyle(
@@ -63,7 +63,7 @@ class TextStyles {
   );
   static const paragraphdemibold1 = TextStyle(
       fontWeight: FontWeight.w500,
-      color: AppColors.whiteColor,
+      color: Colors.white,
       fontSize: 15.0
   );
   static const paragraphdemibold2 = TextStyle(
@@ -88,7 +88,7 @@ class TextStyles {
   );
   static const highlighterTwo = TextStyle(
       fontWeight: FontWeight.normal,
-      color: AppColors.blackColor,
+      color: Colors.black,
       fontSize: 15.0
   );
 }

@@ -15,7 +15,7 @@ class _FifthPageState extends State<FifthPage> {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Container(
-        color: AppColors.whiteColor,
+        color: Colors.white,
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 5),
           child: Column(
@@ -87,41 +87,41 @@ class _FifthPageState extends State<FifthPage> {
               Divider(),
               Text('Food Orders',style: TextStyles.actionTitleBlack,),
               ListTile(
-                leading: Icon(Feather.shopping_bag,color: AppColors.blackColor,),
+                leading: Icon(Feather.shopping_bag,color: Colors.black,),
                 title: Text('Your Orders',style: TextStyles.highlighterTwo,),
                 trailing: Icon(Icons.keyboard_arrow_right),
               ),
               ListTile(
-                leading: Icon(Feather.heart,color: AppColors.blackColor,),
+                leading: Icon(Feather.heart,color: Colors.black,),
                 title: Text('Favorite Orders',style: TextStyles.highlighterTwo,),
                 trailing: Icon(Icons.keyboard_arrow_right),
               ),
               ListTile(
-                leading: Icon(FontAwesome.address_book_o,color: AppColors.blackColor,),
+                leading: Icon(FontAwesome.address_book_o,color: Colors.black,),
                 title: Text('Address Book',style: TextStyles.highlighterTwo,),
                 trailing: Icon(Icons.keyboard_arrow_right),
               ),
               ListTile(
-                leading: Icon(MaterialCommunityIcons.message_reply_text,color: AppColors.blackColor,),
+                leading: Icon(MaterialCommunityIcons.message_reply_text,color: Colors.black,),
                 title: Text('Online Ordering Help',style: TextStyles.highlighterTwo,),
                 trailing: Icon(Icons.keyboard_arrow_right),
               ),
               Divider(),
               Text('food@word',style: TextStyles.actionTitleBlack,),
               ListTile(
-                leading: Icon(Feather.toggle_right,color: AppColors.blackColor,),
+                leading: Icon(Feather.toggle_right,color: Colors.black,),
                 title: Text('Enable',style: TextStyles.highlighterTwo,),
                 trailing: Icon(Icons.keyboard_arrow_right),
               ),
               Divider(),
               Text('Table Bookings',style: TextStyles.actionTitleBlack,),
               ListTile(
-                leading: Icon(FontAwesome.calendar_check_o,color: AppColors.blackColor,),
+                leading: Icon(FontAwesome.calendar_check_o,color: Colors.black,),
                 title: Text('Your Bookings',style: TextStyles.highlighterTwo,),
                 trailing: Icon(Icons.keyboard_arrow_right),
               ),
               ListTile(
-                leading: Icon(MaterialCommunityIcons.message_reply_text,color: AppColors.blackColor,),
+                leading: Icon(MaterialCommunityIcons.message_reply_text,color: Colors.black,),
                 title: Text('Table Reservation Help',style: TextStyles.highlighterTwo,),
                 trailing: Icon(Icons.keyboard_arrow_right),
               ),

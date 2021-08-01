@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
+
 import 'package:zoma_clone_flutter/constant/colors.dart';
 
 
@@ -11,7 +12,7 @@ class SearchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: AppColors.whiteColor,
+      color: Colors.white,
       child: new Card(
         elevation: 0,
         shape: RoundedRectangleBorder(
@@ -20,10 +21,10 @@ class SearchBar extends StatelessWidget {
 
             ),
             borderRadius: BorderRadius.circular(5)),
-        color: AppColors.whiteColor,
+        color: Colors.white,
         child: new ListTile(
           dense: true,
-          leading: new Icon(Ionicons.ios_search,color: AppColors.blackColor,),
+          leading: new Icon(Ionicons.ios_search,color: Colors.black,),
           title: new TextField(
             controller: controller,
             decoration: new InputDecoration(

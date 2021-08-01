@@ -40,7 +40,7 @@ void initState() {
 Widget build(BuildContext context) {
   return Scaffold(\
   bottomNavigationBar: BottomNavigationBar(
-    backgroundColor: AppColors.whiteColor,
+    backgroundColor: Colors.white,
     items: <BottomNavigationBarItem>[
       BottomNavigationBarItem(activeIcon: FontAwsome.shopping_bag),
       title: Text('order'),
